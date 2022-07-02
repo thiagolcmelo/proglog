@@ -27,3 +27,17 @@ $ curl -X GET localhost:8080 -d '{"offset":0}'
 $ curl -X GET localhost:8080 -d '{"offset":1}'                    
 {"record":{"value":"ujfespkb","offset":1}}
 ```
+
+## Testing
+
+It should be enough to run:
+
+```
+$ make test
+```
+
+In order to check coverage:
+
+```
+$ make cover
+```

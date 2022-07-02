@@ -19,3 +19,12 @@ build: lint
 run: build
 	./main.out
 .PHONY:run
+
+test: build
+	go test ./...
+.PHONY:test
+
+cover: test
+	go test -v -cover -coverprofile=c.out ./...
+	go tool cover -html=c.out
+.PHONY:cover
