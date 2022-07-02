@@ -28,3 +28,7 @@ cover: test
 	go test -v -cover -coverprofile=c.out ./...
 	go tool cover -html=c.out
 .PHONY:cover
+
+compile-protobuf:
+	protoc api/v1/*.proto --go_out=. --go_opt=paths=source_relative --proto_path=.
+.PHONY:compile-protobuf
