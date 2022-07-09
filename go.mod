@@ -10,4 +10,5 @@ require (
 	github.com/stretchr/testify v1.8.0 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+	launchpad.net/gommap v0.0.0-20121012075617-000000000015 // indirect
 )
