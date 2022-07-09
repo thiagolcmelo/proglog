@@ -1,5 +1,6 @@
 package log
 
+// Config stores individual segments constraints
 type Config struct {
 	Segment struct {
 		MaxStoreBytes uint64
