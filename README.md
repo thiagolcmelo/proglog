@@ -41,3 +41,7 @@ In order to check coverage:
 ```
 $ make cover
 ```
+
+## Just adding something
+
+Hello there
